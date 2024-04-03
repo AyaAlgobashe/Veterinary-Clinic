@@ -81,13 +81,15 @@ const AboutPage = () => {
                                 sx={{
                                     color: "white",
                                     fontFamily: "Montserrat",
-                                    fontStyle: "italic"
+                                    fontStyle: "italic",
+                                    fontSize:{md:"1rem",xs:".5rem"}
                                 }} >A B O U T U S</Typography>
                             <Typography variant='h1'
                                 sx={{
                                     color: "white",
                                     fontFamily: "Montserrat",
-                                    fontWeight: "bold"
+                                    fontWeight: "bold",
+                                    fontSize:{md:"4rem",xs:"3rem"}
 
 
                                 }}>
@@ -111,6 +113,7 @@ const AboutPage = () => {
                                     color: '#012A4A',
                                     fontFamily: "Montserrat, sans-serif",
                                     fontWeight: "bold",
+                                    fontSize:{md:"4rem",xs:"2rem"},
                                     textAlign: { xs: "center", md: "left" },
                                     marginLeft: { md: "1%", xs: "20%" }
 

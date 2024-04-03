@@ -41,13 +41,16 @@ const ServicesPage = () => {
                 sx={{
                   color: "white",
                   fontFamily: "Montserrat",
-                  fontStyle: "italic"
+                  fontStyle: "italic",
+                  fontSize:{md:"1rem",xs:".5rem"}
                 }} >O U R   S E R V I C E S</Typography>
               <Typography variant='h1'
                 sx={{
                   color: "white",
                   fontFamily: "Montserrat",
-                  fontWeight: "bold"
+                  fontWeight: "bold",
+                  fontSize:{md:"4rem",xs:"3rem"}
+
 
 
                 }}>

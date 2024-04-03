@@ -12,7 +12,9 @@ const ServiceList = () => {
               color: '#012A4A',
               fontFamily: "Montserrat, sans-serif",
               fontWeight: "bold",
-              textAlign: "center"
+              textAlign: "center",
+              fontSize:{md:"4rem",xs:"2.5rem"}
+
 
             }}
           > Our Services</Typography>

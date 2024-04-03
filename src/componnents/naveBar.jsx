@@ -61,12 +61,12 @@ function AppBarComponent() {
                                     <Button
                                         key={page}
                                         component={Link} 
-                                        to={links[index]} // Set the link destination
+                                        to={links[index]} 
                                         sx={{
                                             color: '#012A4A',
                                             display: 'block',
                                             fontFamily: "Montserrat, sans-serif",
-                                            fontSize: {md:"1rem",lg:"1.2rem",xs:".8rem"}
+                                            fontSize: {md:"1rem",lg:"1.2rem",xs:".5rem",sm:".8rem"}
                                         }}
                                         onClick={handleCloseNavMenu}
                                     >
